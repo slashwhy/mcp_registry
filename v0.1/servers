@@ -1,10 +1,15 @@
 [
   {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
     "name": "Atlassian",
     "version": "1.0.0",
     "description": "Official Atlassian MCP Server for Jira, Confluence, and Compass integration.",
     "vendor": "Atlassian",
     "tags": ["productivity", "management", "jira", "confluence"],
+    "repository": {
+      "url": "https://github.com/atlassian/mcp-server",
+      "source": "github"
+    },
     "attributes": {
         "mcp_version": "2024-11-05"
     },
@@ -19,11 +24,16 @@
     ]
   },
   {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
     "name": "Figma",
     "version": "1.0.0",
     "description": "Official Figma MCP Server for design context integration.",
     "vendor": "Figma",
     "tags": ["design", "ui", "ux"],
+    "repository": {
+      "url": "https://github.com/figma/mcp-server",
+      "source": "github"
+    },
     "attributes": {
         "mcp_version": "2024-11-05"
     },

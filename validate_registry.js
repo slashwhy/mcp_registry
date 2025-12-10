@@ -27,6 +27,11 @@ try {
     }
 
     if (!server.description) throw new Error(`Server at index ${index} missing "description".`);
+    
+    // Validate repository
+    if (!server.repository || !server.repository.url) {
+        throw new Error(`Server at index ${index} missing "repository.url".`);
+    }
     if (!server.tags || !Array.isArray(server.tags)) {
         throw new Error(`Server at index ${index} missing "tags" array.`);
     }
