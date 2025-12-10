@@ -4,9 +4,9 @@ This repository hosts the custom Model Context Protocol (MCP) registry for our G
 
 ## Registry URL
 
-**`https://slashwhy.github.io/mcp_registry/registry.json`**
+**`https://slashwhy.github.io/mcp_registry`**
 
-(This URL will be active once you enable GitHub Pages)
+(GitHub Copilot automatically appends `/v0.1/servers` to this base URL)
 
 ## Available Tools
 
@@ -23,7 +23,7 @@ To serve this registry to Copilot, you must enable GitHub Pages for this reposit
 2. Under **Build and deployment**, select **Source** as `Deploy from a branch`.
 3. Select `main` as the branch and `/ (root)` as the folder.
 4. Click **Save**.
-5. Wait for the deployment to finish. The page URL will be displayed at the top. Append `/registry.json` to this URL to get your **Registry URL**.
+5. Wait for the deployment to finish. Use the base URL shown above.
 
 ### 2. Configure GitHub Copilot Policy
 
@@ -31,7 +31,7 @@ To serve this registry to Copilot, you must enable GitHub Pages for this reposit
 2. Navigate to **Copilot** > **Policies**.
 3. Find the **Model Context Protocol (MCP)** section.
 4. Select **Registry only**.
-5. Paste your **Registry URL** (ending in `registry.json`) into the "MCP Registry URL" field.
+5. Paste your **Registry URL** (`https://slashwhy.github.io/mcp_registry`) into the "MCP Registry URL" field.
 6. Click **Save**.
 
 ## Adding New Tools
