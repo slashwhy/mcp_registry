@@ -8,10 +8,15 @@
     "attributes": {
         "mcp_version": "2024-11-05"
     },
-    "transport": {
-      "type": "sse",
-      "url": "https://mcp.atlassian.com/v1/sse"
-    }
+    "packages": [
+      {
+        "version": "1.0.0",
+        "transport": {
+          "type": "sse",
+          "url": "https://mcp.atlassian.com/v1/sse"
+        }
+      }
+    ]
   },
   {
     "name": "Figma",
@@ -22,9 +27,14 @@
     "attributes": {
         "mcp_version": "2024-11-05"
     },
-    "transport": {
-      "type": "sse",
-      "url": "https://mcp.figma.com/mcp"
-    }
+    "packages": [
+      {
+        "version": "1.0.0",
+        "transport": {
+          "type": "sse",
+          "url": "https://mcp.figma.com/mcp"
+        }
+      }
+    ]
   }
 ]
